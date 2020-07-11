@@ -67,8 +67,7 @@ public class HeadDoubleILinkedList<T> implements ILinkedList<T> {
                 j++;
                 pre=pre.next;
             }
-            if (pre!=null)
-                return pre.data;
+            if (pre!=null) return pre.data;
         }
         return null;
     }

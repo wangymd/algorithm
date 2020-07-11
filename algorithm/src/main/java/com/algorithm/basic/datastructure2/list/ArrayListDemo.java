@@ -19,10 +19,18 @@ public class ArrayListDemo {
          System.out.println("Printing elements of arrayList");
          // 三种遍历方式打印元素
          // 第一种：通过迭代器遍历
-         System.out.print("通过迭代器遍历:");
+         System.out.print("通过iterator迭代器遍历:");
          Iterator<Integer> it = arrayList.iterator();
          while(it.hasNext()){
              System.out.print(it.next() + " ");
+         }
+         System.out.println();
+         
+         // 第一种：通过迭代器遍历
+         System.out.print("通过listIterator迭代器遍历:");
+         Iterator<Integer> listIterator = arrayList.listIterator();
+         while(listIterator.hasNext()){
+             System.out.print(listIterator.next() + " ");
          }
          System.out.println();
 

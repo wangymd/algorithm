@@ -2,7 +2,6 @@ package com.algorithm.basic.datastructure1.Tree.AVLTree;
 
 
 import com.algorithm.basic.datastructure1.Tree.BinaryTree.BinaryNode;
-import com.algorithm.basic.datastructure1.Tree.BinaryTree.BinarySearchTree;
 import com.algorithm.basic.datastructure1.Tree.BinaryTree.Tree;
 
 
